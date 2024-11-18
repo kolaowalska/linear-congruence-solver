@@ -49,4 +49,9 @@ void linsolve(ll a, ll b, ll n) {
     }
 }
 
-
+int main() {
+    ll a, b, n;
+    cin >> a >> b >> n;
+    linsolve(a, b, n);
+    return 0;
+}
